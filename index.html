@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Money Lending | Strategic Loan Advisory</title>
+    <meta name="description" content="Elite finance advisory for Personal Loans, Overdraft Facilities, and Business Loans. Bank-grade trust and transparent advisory.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Chart.js for Professional Calculator -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fa-solid fa-chart-line" style="color: var(--color-gold);"></i>
+                    Easy Money <span>Lending</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#how-it-works">Process</a></li>
+                    <li><a href="#calculator">Calculator</a></li>
+                    <li><a href="#office">Office</a></li>
+                    <li><a href="#contact" class="btn btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Strategic Loan Advisory with Banks & NBFCs</h1>
+                <p>Personal Loans • Overdraft Facilities • Business Loans</p>
+                <div class="hero-cta">
+                    <a href="#apply" class="btn btn-primary">Apply Now</a>
+                    <a href="#contact" class="btn btn-outline">Request Executive Callback</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Signals -->
+    <div class="trust-bar">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item"><i class="fa-solid fa-building-columns"></i> Top Banks Partner</div>
+                <div class="trust-item"><i class="fa-solid fa-handshake"></i> Transparent Advisory</div>
+                <div class="trust-item"><i class="fa-solid fa-bolt"></i> Fast Disbursal</div>
+                <div class="trust-item"><i class="fa-solid fa-shield-halved"></i> Secure Process</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Premium Financial Solutions</h2>
+                <p>Tailored liquidity and funding strategies for professionals and businesses.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h3>Personal Loans</h3>
+                    <p>Fast, flexible, and bank-assisted personal funding designed for salaried professionals seeking competitive rates.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+                    <h3>Overdraft Facilities</h3>
+                    <p>Instant liquidity for professionals and businesses. Pay interest only on what you use, ensuring maximum efficiency.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <h3>Business Loans</h3>
+                    <p>Growth-oriented funding for MSMEs and enterprises. Collateral-free options available to fuel your expansion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>Seamless Execution</h2>
+                <p>A refined 4-step process to secure your funding.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-item">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h4>Consultation</h4>
+                        <p>Discuss requirements with our senior advisors.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h4>Documentation</h4>
+                        <p>Minimal, digital-first paperwork submission.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h4>Approval</h4>
+                        <p>Rapid processing through our bank network.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h4>Disbursal</h4>
+                        <p>Funds transferred directly to your account.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EMI Calculator -->
+    <section id="calculator" class="calculator-section">
+        <div class="container">
+            <div class="section-header" style="color: white;">
+                <h2 style="color: white;">EMI Estimator</h2>
+                <p style="color: rgba(255,255,255,0.7);">Plan your repayment with precision.</p>
+            </div>
+            <div class="calc-container">
+                <div class="calc-inputs">
+                    <div class="input-group">
+                        <label>Loan Amount (₹)</label>
+                        <input type="number" id="loanAmount" value="500000">
+                        <input type="range" id="loanAmountRange" min="50000" max="10000000" step="10000" value="500000">
+                    </div>
+                    <div class="input-group">
+                        <label>Interest Rate (% p.a.)</label>
+                        <input type="number" id="interestRate" value="10.5" step="0.1">
+                        <input type="range" id="interestRateRange" min="8" max="24" step="0.1" value="10.5">
+                    </div>
+                    <div class="input-group">
+                        <label>Tenure (Years)</label>
+                        <input type="number" id="loanTenure" value="5">
+                        <input type="range" id="loanTenureRange" min="1" max="20" step="1" value="5">
+                    </div>
+                </div>
+                <div class="calc-results">
+                    <div class="chart-wrapper" style="position: relative; height: 200px; width: 100%; display: flex; justify-content: center; margin-bottom: 1.5rem;">
+                        <canvas id="emiChart"></canvas>
+                    </div>
+                    <h3>Monthly EMI</h3>
+                    <div class="emi-amount" id="emiResult">₹ 10,747</div>
+                    <div class="calc-details">
+                        <p>Principal: <span id="principalDisplay" class="text-gold">₹ 500,000</span></p>
+                        <p>Total Interest: <span id="totalInterest">₹ 144,817</span></p>
+                        <p>Total Payment: <span id="totalPayment">₹ 644,817</span></p>
+                    </div>
+                    <div style="margin-top: 2rem;">
+                        <a href="#apply" class="btn btn-primary">Apply for this Loan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Office Section -->
+    <section id="office" class="office-section" style="background: var(--color-black); padding: 8rem 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Corporate Headquarters</h2>
+                <p>A space designed for strategic thinking and elite financial planning.</p>
+            </div>
+            <div class="office-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+                <div class="office-img-card" style="position: relative; overflow: hidden; border-radius: 4px;">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000" alt="Executive Meeting Room" style="width: 100%; height: 300px; object-fit: cover; transition: transform 0.5s ease;">
+                    <div class="img-overlay" style="position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1.5rem;">
+                        <h4 style="color: var(--color-white); margin: 0;">Executive Lounge</h4>
+                    </div>
+                </div>
+                <div class="office-img-card" style="position: relative; overflow: hidden; border-radius: 4px;">
+                    <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1000" alt="Corporate Office" style="width: 100%; height: 300px; object-fit: cover; transition: transform 0.5s ease;">
+                    <div class="img-overlay" style="position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1.5rem;">
+                        <h4 style="color: var(--color-white); margin: 0;">Client Meeting Area</h4>
+                    </div>
+                </div>
+                <div class="office-img-card" style="position: relative; overflow: hidden; border-radius: 4px;">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c54be3855833?auto=format&fit=crop&q=80&w=1000" alt="Finance Desk" style="width: 100%; height: 300px; object-fit: cover; transition: transform 0.5s ease;">
+                    <div class="img-overlay" style="position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1.5rem;">
+                        <h4 style="color: var(--color-white); margin: 0;">Strategy Center</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials (Placeholder for Luxury Feel) -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Trust</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" style="text-align: center;">
+                    <p style="font-style: italic; margin-bottom: 1rem;">"Exceptional service. The team at Easy Money Lending handled my business loan with absolute professionalism."</p>
+                    <h4 class="text-gold">Rajesh K.</h4>
+                    <span style="font-size: 0.8rem; color: var(--color-gray-dark);">Director, Tech Solutions</span>
+                </div>
+                <div class="service-card" style="text-align: center;">
+                    <p style="font-style: italic; margin-bottom: 1rem;">"Transparent and fast. Got my overdraft facility approved within days. Highly recommended."</p>
+                    <h4 class="text-gold">Dr. Sharma</h4>
+                    <span style="font-size: 0.8rem; color: var(--color-gray-dark);">Medical Professional</span>
+                </div>
+                <div class="service-card" style="text-align: center;">
+                    <p style="font-style: italic; margin-bottom: 1rem;">"A truly premium experience. No hassle, just results. The advisory was spot on."</p>
+                    <h4 class="text-gold">Amit V.</h4>
+                    <span style="font-size: 0.8rem; color: var(--color-gray-dark);">Chartered Accountant</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Section -->
+    <section id="apply" class="lead-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Begin Your Journey</h2>
+                <p>Share your details for a confidential consultation.</p>
+            </div>
+            <div class="lead-form-container">
+                <form>
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel" placeholder="+91 98765 43210">
+                    </div>
+                    <div class="form-group">
+                        <label>Service Required</label>
+                        <select>
+                            <option>Personal Loan</option>
+                            <option>Business Loan</option>
+                            <option>Overdraft Facility</option>
+                            <option>Other Advisory</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Loan Amount Needed</label>
+                        <input type="text" placeholder="e.g. ₹ 10 Lakhs">
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Request Callback</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Authority Block -->
+    <section id="contact" class="contact-bar">
+        <div class="container">
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <h4>Founded by Akash Pandey</h4>
+                    <p>Expert Financial Advisory & Strategic Lending</p>
+                </div>
+                <div class="contact-info">
+                    <h4><a href="tel:+918287672434" style="text-decoration: none; color: inherit;"><i class="fa-solid fa-phone" style="color: var(--color-gold);"></i> +91 82876 72434</a></h4>
+                    <p><a href="https://wa.me/918287672434" style="text-decoration: none; color: var(--color-gray-dark);">Available on WhatsApp</a></p>
+                </div>
+                <div class="contact-info">
+                    <h4><i class="fa-solid fa-location-dot" style="color: var(--color-gold);"></i> Location</h4>
+                    <p>E-49, Block E, Sector 3, Noida,<br>Uttar Pradesh – 201301, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-flex">
+                <div>
+                    <h3 style="color: white; margin-bottom: 1rem;">Easy Money Lending</h3>
+                    <p>Bank-grade financial advisory services.</p>
+                    <div class="social-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                        <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/918287672434" target="_blank" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://linkedin.com" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <p>© 2026 Easy Money Lending. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p style="font-size: 0.8rem; opacity: 0.5;">Disclaimer: We are a financial advisory firm connecting clients with banks and NBFCs. We do not directly lend money.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
